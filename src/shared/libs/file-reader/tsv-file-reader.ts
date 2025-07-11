@@ -23,7 +23,7 @@ export class TSVFileReader implements FileReader {
       .filter((row) => row.trim().length > 0)
       .slice(1) // Пропускаем заголовок
       .map((line) => line.split('\t'))
-              .map(([title, description, publishedDate, city, previewImage, photos, isPremium, isFavorite, rating, type, bedrooms, maxAdults, price, goods, author, commentsCount, latitude, longitude]) => ({
+      .map(([title, description, publishedDate, city, previewImage, photos, isPremium, isFavorite, rating, type, bedrooms, maxAdults, price, goods, author, commentsCount, latitude, longitude]) => ({
         title,
         description,
         publishedDate: new Date(publishedDate),
