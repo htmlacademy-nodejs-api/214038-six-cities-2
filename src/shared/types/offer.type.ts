@@ -1,11 +1,11 @@
-import { User } from "./user.type.ts";
-import { ApartmentsType } from "./apartments.type.enum.ts";
-import { Goods } from "./goods.type.enum.ts";
+import { User } from './user.type.js';
+import { ApartmentsType } from './apartments.type.enum.js';
+import { Goods } from './goods.type.enum.js';
 
 export type Offer = {
-    name: string;
+    title: string;
     description: string;
-    date: Date;
+    publishedDate: Date;
     city: string;
     previewImage: string;
     photos: string[];
