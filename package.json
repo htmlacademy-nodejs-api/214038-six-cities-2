@@ -24,7 +24,8 @@
     "eslint-config-htmlacademy": "9.1.1",
     "rimraf": "5.0.1",
     "ts-node": "10.9.1",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "json-server": "0.17.4"
   },
   "type": "module",
   "engines": {
