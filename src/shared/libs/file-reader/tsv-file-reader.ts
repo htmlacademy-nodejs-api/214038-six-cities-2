@@ -1,6 +1,6 @@
 import { FileReader } from './file-reader.interface.js';
 import { readFileSync } from 'node:fs';
-import { Offer, ApartmentsType, Goods, User } from '../../types/index.js';
+import { Offer, ApartmentsType, ApartmentTypeValues, Goods, User } from '../../types/index.js';
 
 export class TSVFileReader implements FileReader {
   private rawData = '';
@@ -33,7 +33,7 @@ export class TSVFileReader implements FileReader {
         isPremium: isPremium === 'true',
         isFavorite: isFavorite === 'true',
         rating: Number.parseFloat(rating),
-        type: ApartmentsType[type as 'apartment' | 'room' | 'house' | 'hotel'],
+        type: ApartmentsType[type as ApartmentTypeValues],
         bedrooms: Number.parseInt(bedrooms, 10),
         maxAdults: Number.parseInt(maxAdults, 10),
         price: Number.parseInt(price, 10),
