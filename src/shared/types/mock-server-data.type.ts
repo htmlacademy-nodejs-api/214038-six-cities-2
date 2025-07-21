@@ -4,7 +4,7 @@ export type MockServerData = {
     publishedDate: string[];
     city: string[];
     previewImage: string[];
-    photos: string[][];
+    photos: string[];
     isPremium: boolean[];
     isFavorite: boolean[];
     rating: number[];
@@ -12,7 +12,7 @@ export type MockServerData = {
     bedrooms: number[];
     maxAdults: number[];
     price: number[];
-    goods: string[][];
+    goods: string[];
     host: string[];
     commentsCount: number[];
     latitude: number[];
