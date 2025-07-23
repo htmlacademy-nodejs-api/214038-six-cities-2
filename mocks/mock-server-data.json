@@ -1,0 +1,195 @@
+{
+    "api": {
+        "title": [
+            "Beautiful apartment in Paris center",
+            "Cozy house in Amsterdam canals",
+            "Luxury hotel room in Cologne",
+            "Modern studio in Brussels",
+            "Charming room in Hamburg"
+        ],
+        "description": [
+            "Spacious and modern apartment located in the heart of Paris, just steps away from the Eiffel Tower. Features stunning city views, fully equipped kitchen, and comfortable living area. Perfect for couples or small families visiting the City of Light.",
+            "Charming traditional Dutch house located along the famous Amsterdam canals. Features authentic architecture, wooden beams, and a private garden. Walking distance to museums and shopping districts. Ideal for experiencing authentic Amsterdam lifestyle.",
+            "Elegant hotel room in the heart of Cologne with panoramic city views. Features premium amenities, room service, and access to spa facilities. Perfect for business travelers and luxury seekers.",
+            "Contemporary studio apartment in vibrant Brussels. Features open-plan design, modern appliances, and excellent location near EU institutions. Ideal for young professionals and students.",
+            "Cozy private room in a traditional Hamburg house. Features warm atmosphere, shared kitchen, and beautiful garden. Perfect for budget travelers and those seeking authentic local experience."
+        ],
+        "publishedDate": [
+            "2024-01-15",
+            "2024-01-20",
+            "2024-01-25",
+            "2024-02-01",
+            "2024-02-05"
+        ],
+        "city": [
+            "Paris",
+            "Amsterdam",
+            "Cologne",
+            "Brussels",
+            "Hamburg"
+        ],
+        "previewImage": [
+            "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=300&h=200&fit=crop",
+            "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=300&h=200&fit=crop",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=300&h=200&fit=crop",
+            "https://images.unsplash.com/photo-1560448075-bb485b067938?w=300&h=200&fit=crop",
+            "https://images.unsplash.com/photo-1560448204-6032f02e92d4?w=300&h=200&fit=crop"
+        ],
+        "photos": [
+            [
+            "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448075-bb485b067938?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448204-6032f02e92d4?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448075-8c4e2b5b5b5b?w=1200&h=800&fit=crop"
+            ],
+            [
+            "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448075-bb485b067938?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448204-6032f02e92d4?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448075-8c4e2b5b5b5b?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&h=800&fit=crop"
+            ],
+            [
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448075-bb485b067938?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448204-6032f02e92d4?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448075-8c4e2b5b5b5b?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&h=800&fit=crop"
+            ],
+            [
+            "https://images.unsplash.com/photo-1560448075-bb485b067938?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448204-6032f02e92d4?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448075-8c4e2b5b5b5b?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&h=800&fit=crop"
+            ],
+            [
+            "https://images.unsplash.com/photo-1560448204-6032f02e92d4?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448075-8c4e2b5b5b5b?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&h=800&fit=crop",
+            "https://images.unsplash.com/photo-1560448075-bb485b067938?w=1200&h=800&fit=crop"
+            ]
+        ],
+        "isPremium": [
+            true,
+            false,
+            true,
+            false,
+            false
+        ],
+        "isFavorite": [
+            false,
+            true,
+            false,
+            true,
+            false
+        ],
+        "rating": [
+            4.8,
+            4.5,
+            4.9,
+            4.2,
+            4.6
+        ],
+        "type": [
+            "apartment",
+            "house",
+            "hotel",
+            "apartment",
+            "room"
+        ],
+        "bedrooms": [
+            2,
+            3,
+            1,
+            1,
+            1
+        ],
+        "maxAdults": [
+            4,
+            6,
+            2,
+            2,
+            1
+        ],
+        "price": [
+            150,
+            200,
+            300,
+            120,
+            80
+        ],
+        "goods": [
+            [
+            "Breakfast",
+            "Air conditioning",
+            "Laptop friendly workspace",
+            "Washer",
+            "Towels",
+            "Fridge"
+            ],
+            [
+            "Breakfast",
+            "Air conditioning",
+            "Baby seat",
+            "Washer",
+            "Towels",
+            "Fridge"
+            ],
+            [
+            "Breakfast",
+            "Air conditioning",
+            "Laptop friendly workspace",
+            "Towels",
+            "Fridge"
+            ],
+            [
+            "Air conditioning",
+            "Laptop friendly workspace",
+            "Washer",
+            "Towels",
+            "Fridge"
+            ],
+            [
+            "Breakfast",
+            "Towels",
+            "Fridge"
+            ]
+        ],
+        "host": [
+            "Andew Grishin",
+            "John Doe",
+            "Jane Vivaldi",
+            "Abdula Smith",
+            "Jane Final"
+        ],
+        "commentsCount": [
+            12,
+            8,
+            15,
+            6,
+            10
+        ],
+        "latitude": [
+            48.85661,
+            52.370216,
+            50.938361,
+            50.846557,
+            53.550341
+        ],
+        "longitude": [
+            2.351499,
+            4.895168,
+            6.959974,
+            4.351697,
+            10.000654
+        ]    
+    }
+}

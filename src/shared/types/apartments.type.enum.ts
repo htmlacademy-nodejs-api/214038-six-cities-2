@@ -4,3 +4,4 @@ export enum ApartmentsType {
     house = 'house',
     hotel = 'hotel'
 }
+
