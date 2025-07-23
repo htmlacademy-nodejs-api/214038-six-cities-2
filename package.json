@@ -26,7 +26,8 @@
     "rimraf": "5.0.1",
     "ts-node": "10.9.1",
     "typescript": "5.2.2",
-    "json-server": "0.17.4"
+    "json-server": "0.17.4",
+    "tslib": "2.6.2"
   },
   "type": "module",
   "engines": {

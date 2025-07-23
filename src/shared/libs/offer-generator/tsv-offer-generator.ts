@@ -26,7 +26,7 @@ export class TSVOfferGenerator implements OfferGenerator {
     const maxAdults = getRandomItem<number>(this.mockData.maxAdults).toString();
     const price = getRandomItem<number>(this.mockData.price).toString();
     const goods = getRandomItems<string>(this.mockData.goods).join(';');
-    const host = getRandomItem<string>(this.mockData.host);
+    const host = getRandomItem<string>(this.mockData.host).toString();
     const commentsCount = getRandomItem<number>(this.mockData.commentsCount).toString();
     const latitude = getRandomItem<number>(this.mockData.latitude).toString();
     const longitude = getRandomItem<number>(this.mockData.longitude).toString();

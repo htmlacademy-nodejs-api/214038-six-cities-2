@@ -5,4 +5,3 @@ export enum ApartmentsType {
     hotel = 'hotel'
 }
 
-export type ApartmentTypeValues = `${ApartmentsType}`;
