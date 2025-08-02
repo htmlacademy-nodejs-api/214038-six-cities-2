@@ -1,4 +1,4 @@
-import { Offer, ApartmentsType, Goods, User } from '../types/index.js';
+import { Offer, ApartmentsType, Goods } from '../types/index.js';
 
 export function createOffer(offerData: string): Offer {
   const [
@@ -36,8 +36,8 @@ export function createOffer(offerData: string): Offer {
     bedrooms: Number.parseInt(bedrooms, 10),
     maxAdults: Number.parseInt(maxAdults, 10),
     price: Number.parseInt(price, 10),
-    goods: goods.split(';') as Goods[],
-    author: host as unknown as User,
+    goods: goods.split(',') as Goods[],
+    author: host,
     commentsCount: Number.parseInt(commentsCount, 10),
     latitude: Number.parseFloat(latitude),
     longitude: Number.parseFloat(longitude),

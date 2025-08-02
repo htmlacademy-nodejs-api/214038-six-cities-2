@@ -5,4 +5,5 @@ export enum Goods {
     WASHER = 'Washer',
     TOWELS = 'Towels',
     FRIDGE = 'Fridge',
+    LAPTOP_FRIENDLY_WORKSPACE = 'Laptop friendly workspace',
 }

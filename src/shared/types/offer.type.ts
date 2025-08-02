@@ -1,4 +1,3 @@
-import { User } from './user.type.js';
 import { ApartmentsType } from './apartments.type.enum.js';
 import { Goods } from './goods.type.enum.js';
 
@@ -17,7 +16,7 @@ export type Offer = {
     maxAdults: number;
     price: number;
     goods: Goods[];
-    author: User;
+    author: string; // User ID
     commentsCount: number;
     latitude: number;
     longitude: number;
